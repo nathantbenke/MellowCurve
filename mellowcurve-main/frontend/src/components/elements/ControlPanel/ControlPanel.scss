@@ -1,0 +1,40 @@
+@import "/src/App.scss";
+
+input{
+    width: 100%;
+}
+  
+.params {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  background: $subtle;
+  box-shadow: inset 0px 0px 3px 1px black;
+  border: 8px solid $dark-accent;
+  border-radius: 12px;
+  height: 100%;
+}
+
+fieldset {
+  position: relative;
+}
+
+fieldset > label:first-of-type {
+  position: absolute;
+  top: -16px;
+  right: 10px;
+  background: $emphasis;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.vertical_3 {
+  transform: rotate(270deg) translate3d(-5vh, -1.4vw, 0);
+  width: 10vh;
+}
+
+.vertical_4 {
+  transform: rotate(270deg) translate3d(-5vh, -2vw, 0);
+  width: 10vh;
+}
+

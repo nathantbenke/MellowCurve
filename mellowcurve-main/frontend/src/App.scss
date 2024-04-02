@@ -1,0 +1,45 @@
+$base: #171219;
+$baseSecondary: #221e24;
+$baseLight: #EEEEEE;
+
+$first: #EEEEEE;
+$second: #deba6f;
+$third: #161B33;
+$fourth: #2E3144;
+$fifth: #454754;
+
+$emphasis: #DB4C40;
+$subtle: #7D8491;
+
+$dark-accent: #181a26;
+
+$background-light: #e9ecef;
+$background-dark: #2E3144;
+
+$defaultButton: #DAD6D6;
+$pendingButton: #51E5FF;
+$waitingButton: #F4AC45;
+$resolvedButton: #CAFE48;
+
+.fa {
+font-family: FontAwesome, fontawesome-webfont;
+}
+
+.far {
+font-family: Font Awesome 5 Free, fa-regular-400;
+font-weight: 400;
+}
+
+.fas {
+font-family: Font Awesome 5 Free, fa-solid-900;
+font-weight: 900;
+}
+
+.fas-mini {
+font-family: Font Awesome 5 Free, fa-solid-900;
+font-weight: 400;
+}
+
+html, body {
+  height: 100%;
+}

@@ -1,0 +1,197 @@
+@import "/src/App.scss";
+
+
+.header{
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+}
+
+.header button {
+    background-color: $first;
+    color: $third;
+}
+
+.header button:hover {
+  background-color: darken($first, 10%);
+}
+
+.jumbotron {
+  background-color: $background-dark;
+}
+
+.jumbotron h1 {
+    font-size: 5em;
+    color: $base;
+}
+
+.jumbotron h3{
+    font-size: 2em;
+    color: $first;
+}
+
+.home-container{
+    height: 81vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: $background-dark;
+}
+
+.home-container h1 {
+    font-size: 5em;
+    color: $first;
+}
+
+.home-container h3{
+    font-size: 2em;
+    color: $first;
+}
+
+.download-btn {
+    padding: 5px;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: larger;
+}
+
+.fill-height {
+    min-height: 100%;
+    height:auto !important; /* cross-browser */
+    height: 100%; /* cross-browser */
+}
+
+.main-body {
+    height: 50vh;
+}
+
+.separator {
+    height: 0.5vh;
+    background-color: $dark-accent;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.vertical-separator {
+    height: 100%;
+    background-color: $dark-accent;
+    width: 0.5vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.playButton {
+    height:5vh;
+    color: $first;
+}
+
+.button-overwrite {
+    background-color: transparent;
+    border-color: transparent;
+    color: $third;
+}
+
+.bpm_container {
+    margin-left: 10px;
+    background-color: $third;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+}
+.bpm_label {
+    font-size: 2em;
+    color: $baseLight;
+    margin: 0;
+}
+
+.waveform{
+  height:100px;
+}
+
+.bpm_button {
+    display: flex;
+    justify-content: center; /* center the content horizontally */
+    align-items: center; /* center the content vertically */
+    width: 30px;
+    box-sizing: border-box;
+    background-color: $third;
+    color: $baseLight;
+    border: 0px;
+    margin: 0 5px;
+}
+
+.selected-track {
+  background-color: $fifth;
+  color: $first;
+}
+
+.unselected-track {
+  background-color: $third;
+  color: $first;
+}
+
+.playing-step {
+  background-color: red; 
+  color: white;
+}
+
+@import "/src/App.scss";
+
+input{
+    width: 100%;
+}
+  
+.params {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  background: $subtle;
+  box-shadow: inset 0px 0px 3px 1px black;
+  border: 8px solid $dark-accent;
+  border-radius: 12px;
+  height: 100%;
+}
+
+fieldset {
+  position: relative;
+}
+
+fieldset > label:first-of-type {
+  position: absolute;
+  top: -16px;
+  right: 10px;
+  background: $emphasis;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.vertical_3 {
+  transform: rotate(270deg) translate3d(-5vh, -1.4vw, 0);
+  width: 10vh;
+}
+
+.vertical_4 {
+  transform: rotate(270deg) translate3d(-5vh, -2vw, 0);
+  width: 10vh;
+}
+
+
+.track-container {
+  max-width: 2000px;
+  max-height: 300px;
+  //overflow: auto;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+
+.sample-container {
+  max-width: 800px;
+  max-height: 300px;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.form-input {
+  width: 100%;
+}

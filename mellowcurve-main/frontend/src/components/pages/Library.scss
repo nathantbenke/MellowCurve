@@ -1,0 +1,28 @@
+@import "/src/App.scss";
+
+.app {
+    height: 81vh;
+    width: 120vw;
+    margin: 0 auto;
+}
+
+.scroller {
+  margin: 0 auto;
+  height: 32%;
+  width: 300px;
+  overflow: auto;
+}
+
+.item {
+  margin: 5px 0;
+background-color: $background-light;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.item button {
+  display: inline-block;
+  margin-left: 10px;
+}
